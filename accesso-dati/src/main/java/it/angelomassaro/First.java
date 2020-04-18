@@ -14,6 +14,7 @@ import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
 import model.Scarpe;
+
 import model.Utenti;
 
 public class First {
