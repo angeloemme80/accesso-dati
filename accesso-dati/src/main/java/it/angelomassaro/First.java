@@ -118,8 +118,8 @@ public class First {
 		EntityManager em = getEntityManager();
         em.getTransaction().begin();
 		Utenti utenti = new Utenti();
-        utenti.setNome("Raffaele");
-        utenti.setCognome("Massaro");
+        utenti.setNome("Javier");
+        utenti.setCognome("Zanetti");
         em.persist(utenti);
         em.getTransaction().commit();
         em.clear();

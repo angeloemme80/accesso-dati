@@ -3,4 +3,29 @@
   <groupId>it.angelomassaro</groupId>
   <artifactId>accesso-dati</artifactId>
   <version>1.0</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>javax.persistence</groupId>
+  		<artifactId>javax.persistence-api</artifactId>
+  		<version>2.2</version>
+  	</dependency>
+  	<!--
+  	<dependency>
+    	<groupId>org.eclipse.persistence</groupId>
+    	<artifactId>eclipselink</artifactId>
+    	<version>2.7.1</version>
+	</dependency>
+	-->
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.4.14.Final</version>
+</dependency>
+
+  </dependencies>
+  <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
 </project>
